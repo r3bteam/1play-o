@@ -1,0 +1,7 @@
+{
+  "token": "process.env.BOT_TOKEN",
+  "commandPrefix": "1",
+  "ownerId": "479090634813341696",
+  "guildId": "477104148991442966",
+  "queueShownLength": 10
+}
