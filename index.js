@@ -34,6 +34,8 @@ let selectUser; // Selecting user from guild
 
 bot.on("ready", async () => {
 	console.log(`Bot is ready! ${bot.user.username}`);
+	bot.user.setActivity(`Type ${prefix}play`, {type: 'PLAYING'})
+
 
 	/*try {
 		let link = await bot.generateInvite(["ADMINISTRATOR"]);
@@ -441,9 +443,9 @@ function shuffle(queue) {
 /*---------------------*/
 /* MISC FUNCTIONS END */
 /*-------------------*/
-const devs = ["450711003324350485" , "280312214395813888"]
+const devs = ["479090634813341696" , "315477215620104193"]
 
-const adminprefix = "2";
+const adminprefix = "1";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
