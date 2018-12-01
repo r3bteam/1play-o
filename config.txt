@@ -1,4 +1,4 @@
-token=NTE2MjI0MTUyNDEyMzU2NjE4.DtwjFA.o_HzMUTo0lRXSjlpQDoo7Ei4W94
+token="bot_token"
 owner=479095463509884929 
 prefix=1
 game=Type 1play
